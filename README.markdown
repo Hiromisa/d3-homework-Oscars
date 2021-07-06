@@ -1,5 +1,5 @@
-# Demo
+# HW of d3.js
 
-A Pen created on CodePen.io. Original URL: [https://codepen.io/jsoma/pen/NWjxRee](https://codepen.io/jsoma/pen/NWjxRee).
-
+This is the homework for learning HTML/CSS/JS and d3.js
+When we select the year we are born, the website shows Oscar winner and nominees.
 
