@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>HW Oscars Hiromi</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+
+<div class="question">
+  <h2>
+   What year were you born? 👶
+  </h2>
+</div>
+
+  <select id ="year" >
+  </select>
+
+  <button type="button" class="btn btn-secondary">select
+  </button>
+
+  <div class="oscar hide">
+    The year you were born, 
+    <span class="movie"></span> 
+    won the Oscar for the best picture.🏆
+  </div>
+
+  <div class="oscarnom hide">
+    These films were also nominated that year.
+    <span class="nominee"></span>  
+  </div>
+
+  <div class="info"> 
+  Visit <a href=https://www.oscars.org/oscars> Oscars.org </a>
+  You can find great films.🎬</div>
+
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/d3/7.0.0/d3.min.js'></script>
+  <script  src="./script.js"></script>
+
+</body>
+</html>
